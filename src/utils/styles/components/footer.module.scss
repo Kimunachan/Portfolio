@@ -1,0 +1,23 @@
+@use "../partials/functions" as fn;
+
+.list {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: fn.getColor($shading: "primary", $shade: 200);
+  padding: 0;
+  padding-block: 10px;
+  margin: 0;
+  a {
+    color: black;
+  }
+  li {
+    height: 100%;
+    svg {
+      height: 30px;
+      width: 30px;
+    }
+  }
+}

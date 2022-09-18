@@ -1,0 +1,10 @@
+.navbarItem {
+  font-size: 1.5em;
+  text-shadow: 0px 0px 0.25em black;
+  padding: 0.5em 1em;
+  border-radius: 1.0416666666666667em;
+
+  &:hover {
+    background-color: white;
+  }
+}

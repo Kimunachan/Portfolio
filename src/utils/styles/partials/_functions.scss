@@ -1,0 +1,5 @@
+@use "colors" as c;
+
+@function getColor($shading, $shade) {
+  @return map-get($map: map-get($map: c.$colors, $key: $shading), $key: $shade);
+}
