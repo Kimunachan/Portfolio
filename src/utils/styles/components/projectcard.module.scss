@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-areas: ". . title . ." ". desc desc desc .";
+}
+
+.project_name {
+  grid-area: title;
+}
+
+.project_description {
+  grid-area: desc;
+}

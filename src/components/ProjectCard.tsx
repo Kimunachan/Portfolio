@@ -1,5 +1,5 @@
 import { FC } from "react";
-import styles from "../utils/styles/components/project.module.scss";
+import styles from "../utils/styles/components/projectcard.module.scss";
 
 export type Props = {
   link: string;
