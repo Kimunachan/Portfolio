@@ -1,5 +1,6 @@
 # Todo
 - [ ] Reduce Margin for Projects
+- [ ] Increase Inner Padding for Projects 
 - [ ] Add Section "Programs I use"
   - [ ] Panels designed like Skills but only 3 Wide
   - [ ] Add VsCode
