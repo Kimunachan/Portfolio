@@ -1,9 +1,15 @@
 # Todo
-- Reduce Margin for Projects
-- Add Section "Programs I use"
-  - Add VsCode
-  - Add Intellij Idea
-  - Add Intellij PyCharm
-  - Add Docker Desktop
-  - Add Github Desktop
-  - Add Intellij Webstorm
+- [ ] Reduce Margin for Projects
+- [ ] Add Section "Programs I use"
+  - [ ] Panels designed like Skills but only 3 Wide
+  - [ ] Add VsCode
+  - [ ] Add Intellij Idea
+  - [ ] Add Intellij PyCharm
+  - [ ] Add Docker Desktop
+  - [ ] Add Github Desktop
+  - [ ] Add Intellij Webstorm
+  - [ ] Add Krita
+  - [ ] Add Figma
+  - [ ] Add Notion
+  - [ ] Add Cloudflare
+- [ ] Add SQL to Skills
