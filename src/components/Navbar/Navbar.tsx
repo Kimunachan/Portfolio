@@ -25,6 +25,12 @@ const Navbar = () => {
         setActiveElement={setActiveElement}
       />
       <NavbarItem
+        link="#programs"
+        title="Programs I use"
+        activeElement={activeElement}
+        setActiveElement={setActiveElement}
+      />
+      <NavbarItem
         link="#projects"
         title="Projects"
         activeElement={activeElement}

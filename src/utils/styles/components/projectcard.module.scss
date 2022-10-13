@@ -9,8 +9,12 @@
     display: grid;
     grid-template-areas: ". . title . ." ". desc desc desc .";
   }
+  padding: 0.5em 0.25em;
   border: 4px solid fn.getColor("primary", 500);
   border-radius: 1em;
+  @media (min-width: 430px) {
+    padding: 1em 0.5em;
+  }
 }
 
 .project_name {

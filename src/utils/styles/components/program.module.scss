@@ -19,7 +19,7 @@
   cursor: pointer;
 
   @media (min-width: 430px) {
-    .badge_name {
+    .program_name {
       opacity: 0;
       transition: opacity 0.3s ease-in-out, font-size 0.3s ease-in-out;
       font-size: 0em;
@@ -27,7 +27,7 @@
     &:hover {
       //background-color: fn.getColor($shading: "neutral", $shade: 700);
       box-shadow: 5px 5px 10px -2px fn.getColor($shading: "neutral", $shade: 900);
-      .badge_name {
+      .program_name {
         opacity: 1;
         font-size: 1.5em;
       }

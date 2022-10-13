@@ -33,6 +33,23 @@
   }
 }
 
+.programs {
+  padding-top: 5em;
+  margin: 0;
+  display: grid;
+  gap: 1em;
+  width: 100%;
+  padding-inline: 2.5em;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  @media (min-width: 430px) {
+    gap: 3em;
+    padding-inline: 10em;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 .about_me {
   width: 100%;
   text-align: center;
@@ -50,9 +67,10 @@
   padding-top: 5em;
   display: grid;
   justify-content: center;
-  grid-template-columns: 1fr 1fr;
-
+  grid-template-columns: 1fr;
+  gap: 1em;
   width: 100%;
+  padding-inline: 2.5em;
   @media (min-width: 430px) {
     gap: 3em;
     padding-inline: 10em;
