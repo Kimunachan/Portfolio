@@ -8,10 +8,13 @@
   background: url("/img/background.svg") no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: 5em;
+  margin-top: 4em;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
   color: white;
+  @media (min-width: 600px) {
+    margin-top: 5em;
+  }
 }
 
 .badges {
@@ -40,5 +43,19 @@
 
   @media (min-width: 430px) {
     padding-inline: 10em;
+  }
+}
+
+.projects {
+  padding-top: 5em;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+
+  width: 100%;
+  @media (min-width: 430px) {
+    gap: 3em;
+    padding-inline: 10em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }

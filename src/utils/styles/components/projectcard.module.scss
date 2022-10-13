@@ -1,12 +1,26 @@
+@use "../partials/functions" as fn;
 .container {
-  display: grid;
-  grid-template-areas: ". . title . ." ". desc desc desc .";
+  * {
+    color: fn.getColor("neutral", 50);
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    display: grid;
+    grid-template-areas: ". . title . ." ". desc desc desc .";
+  }
+  border: 4px solid fn.getColor("primary", 500);
+  border-radius: 1em;
 }
 
 .project_name {
   grid-area: title;
+  text-align: center;
+  font-size: 28px;
 }
 
 .project_description {
   grid-area: desc;
+  text-align: center;
+  font-size: 22px;
 }

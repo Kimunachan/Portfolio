@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 5em;
+  height: 4em;
   position: fixed;
   display: flex;
   flex-direction: row;
@@ -14,4 +14,7 @@
   padding-block: 1em;
   margin: 0;
   z-index: 9999;
+  @media (min-width: 600px) {
+    height: 5em;
+  }
 }

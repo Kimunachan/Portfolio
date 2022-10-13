@@ -18,7 +18,7 @@ const Home = () => {
     <div>
       <Navbar />
       <div className={styles.page}>
-        <div className={styles.about_me}>
+        <div className={styles.about_me} id="about">
           <div className={styles.text}>
             Hey, my name is Jonas Kliefoth I&apos;m {age} years old. At the
             moment I&apos;m living in Itzehoe, Germany which is near Hamburg.
@@ -33,7 +33,7 @@ const Home = () => {
             University with specialization on computer science.
           </div>
         </div>
-        <div className={styles.badges}>
+        <div className={styles.badges} id="skills">
           <Badge
             name="Java"
             img_link="/img/java.png"
@@ -122,21 +122,55 @@ const Home = () => {
           <Badge
             name="Unity"
             img_link="/img/unity.png"
-            link="https://github.com"
+            link="https://unity.com/de"
           />
           <Badge
             name="Gradle"
             img_link="/img/gradle.png"
-            link="https://github.com"
+            link="https://gradle.org"
           />
           <Badge
             name="Maven"
             img_link="/img/maven.png"
-            link="https://github.com"
+            link="https://maven.apache.org"
+          />
+          <Badge
+            name="Passport"
+            img_link="/img/passport.png"
+            link="https://www.passportjs.org"
+          />
+          <Badge
+            name="CSharp"
+            img_link="/img/cs.svg"
+            link="https://learn.microsoft.com/de-de/dotnet/csharp/"
+          />
+          <Badge
+            name="Express"
+            img_link="/img/express.png"
+            link="https://expressjs.com"
+          />
+          <Badge
+            name="Docker"
+            img_link="/img/docker.png"
+            link="https://www.docker.com"
+          />
+          <Badge
+            name="NestJS"
+            img_link="/img/nest.svg"
+            link="https://nestjs.com"
           />
         </div>
-        <div>
-          <ProjectCard name="Portfolio" link="" description="" />
+        <div className={styles.projects} id="projects">
+          <ProjectCard
+            name="Portfolio"
+            link="https://github.com/Kimunachan/Portfolio"
+            description="This is my Portfolio (This page)"
+          />
+          <ProjectCard
+            name="Technicu"
+            link="https://github.com/Kimunachan/Technicu"
+            description="This is a Minecraft mod I created with Nearieveryone"
+          />
         </div>
       </div>
       <Footer />
