@@ -227,7 +227,7 @@ const Home = () => {
           />
           <ProjectCard
             name="Technicu"
-            link="https://github.com/Kimunachan/Technicu"
+            link="https://github.com/Entisy-com/Techniq"
             description="This is a Minecraft mod I created with Nearieveryone"
           />
         </div>
