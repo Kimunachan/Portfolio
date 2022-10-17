@@ -17,3 +17,4 @@
 - [x] Add SQL to Skills
 - [x] Change "I'm currently studying in Hamburg at the [IU](https://www.iu.de/) University with specialization on computer science." in About me to "At the moment I'm studying in Hamburg at the [IU](https://www.iu.de/) University, majoring in computer science"
 - [ ] Remove Section Home
+- [ ] Add Headlines to each Section
