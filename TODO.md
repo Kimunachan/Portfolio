@@ -19,3 +19,6 @@
 - [ ] Remove Section Home
 - [ ] Add Headlines to each Section
 - [ ] Add Title
+- [ ] Change the Way the Skill/Program name is shown
+- [ ] Rename IntelliJ Webstorm to JetBrains Webstorm
+- [ ] Rename IntelliJ PyCharm to JetBrains PyCharm
